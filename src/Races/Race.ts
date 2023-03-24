@@ -12,7 +12,7 @@ export default abstract class Race {
     return this._dexterity;
   }
 
-  static createdRacesInstances(): number {
+  static createdRacesInstances() {
     throw new Error('Not implemented');
   }
 
